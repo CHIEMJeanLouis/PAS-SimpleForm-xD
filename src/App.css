@@ -1,0 +1,97 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container p {
+  align-self: flex-start;
+  font-size: 12px;
+}
+
+input {
+  width: 298px;
+  height: 43px;
+  background-color: #fbf9f9;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin: 10px 0px 20px 0px;
+}
+
+button {
+  width: 298px;
+  height: 43px;
+  background-color: #5c47d2;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+
+.reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reveal button {
+  width: 250px;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+.headerbis {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+.resume {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  width: 310px;
+  height: 157px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.resume :not(:last-child) {
+  margin-bottom: 15px;
+}
